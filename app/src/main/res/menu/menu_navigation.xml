@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_sub_setting"
+
+        android:title="@string/app_menu" />
+    <item
+        android:id="@+id/navigation_title"
+        android:title="@string/navigation_title">
+        <menu>
+            <item
+                android:id="@+id/navigation_daily"
+                android:checked="true"
+                android:icon="@mipmap/ic_daily"
+                android:title="@string/common_navigation_daily" />
+            <item
+                android:id="@+id/navigation_welfare"
+                android:icon="@mipmap/ic_welfare"
+                android:title="@string/common_welfare" />
+            <item
+                android:id="@+id/navigation_android"
+                android:icon="@mipmap/ic_android"
+                android:title="@string/common_android" />
+            <item
+                android:id="@+id/navigation_ios"
+                android:icon="@mipmap/ic_ios"
+                android:title="@string/common_ios" />
+            <item
+                android:id="@+id/navigation_js"
+                android:icon="@mipmap/ic_js"
+                android:title="@string/common_js" />
+            <item
+                android:id="@+id/navigation_video"
+                android:icon="@mipmap/ic_video"
+                android:title="@string/common_video" />
+            <item
+                android:id="@+id/navigation_resources"
+                android:icon="@mipmap/ic_resources"
+                android:title="@string/common_resources" />
+            <item
+                android:id="@+id/navigation_app"
+                android:icon="@mipmap/ic_app"
+                android:title="@string/common_app" />
+
+        </menu>
+    </item>
+</menu>
