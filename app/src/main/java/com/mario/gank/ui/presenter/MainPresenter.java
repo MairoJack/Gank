@@ -17,6 +17,7 @@ import com.orhanobut.logger.Logger;
 import java.io.Serializable;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
@@ -53,6 +54,7 @@ public class MainPresenter extends BasePresenter<MainView> {
 
         public List<EasyDate> getPastTime() {
             List<EasyDate> easyDates = new ArrayList<>();
+            List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
             for (int i = 0; i < ApiConstant.DEFAULT_DAILY_SIZE; i++) {
                 /*
                  * - (page * DateUtils.ONE_DAY) 翻到哪页再找 一页有DEFAULT_DAILY_SIZE这么长

@@ -38,7 +38,6 @@ public abstract class BaseToolbarActivity extends BaseAppCompatActivity {
         if (this.mToolbar == null || this.mAppBarLayout == null) return;
 
         this.setSupportActionBar(this.mToolbar);
-
         this.mActionBarHelper = this.createActionBarHelper();
         this.mActionBarHelper.init();
 
